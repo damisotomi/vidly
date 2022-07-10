@@ -50,3 +50,9 @@ some settings to the middleware and also static files storage
 38. The idea is that the local repository and the online repository match. Heroku in this case is going to serve as our online repositry
 39. What we have been doing with git desktop is like killing 2 birds with one stone. Now we kill each bird separtely here
 40. run "git init" to intiaillize git then run "git add ." to  add the files to a staging area. then "git  commit -m "comment" " to commit the changes 
+41. Run "heroku login" in the terminal
+42. run "heroku create nameofapp. I did "heroku create dami-sotomi-vidly"
+43. next we push all our code to heroku by running 'git push heroku master'. this pushes the changes in our local repositoryin the 
+master branch to the heroku repository. If i wanted to push to git hub too, i will do sth similar.
+44. So i can actually have a git hub repository for this app as well and push changes there and also pull changes from there and then push these changes to heroku 
+45. we add the website to the allowed host list in the settings file
