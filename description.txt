@@ -55,5 +55,7 @@ some settings to the middleware and also static files storage
 43. next we push all our code to heroku by running 'git push heroku master'. this pushes the changes in our local repositoryin the 
 master branch to the heroku repository. If i wanted to push to git hub too, i will do sth similar.
 44. So i can actually have a git hub repository for this app as well and push changes there and also pull changes from there and then push these changes to heroku 
-45. we add the website to the allowed host list in the settings file.
+45.I had an issue deploying to heroku because it was asking for tkinter sth. so what i noticed was that in my models app
+it was importing one turtle module which i didnt put my self so i removed it. 
+we add the website to the allowed host list in the settings file.
 46. We run "heroku open" to open the app
