@@ -54,7 +54,13 @@ some settings to the middleware and also static files storage
 42. run "heroku create nameofapp. I did "heroku create dami-sotomi-vidly"
 43. next we push all our code to heroku by running 'git push heroku master'. this pushes the changes in our local repositoryin the 
 master branch to the heroku repository. If i wanted to push to git hub too, i will do sth similar.
-44. So i can actually have a git hub repository for this app as well and push changes there and also pull changes from there and then push these changes to heroku 
+44. So i can actually have a git hub repository for this app as well and push changes there and also pull changes from there and then push these changes to heroku. You can have as many remotes on a git installation. So i can push to either github or heroku(because unlike azure, heroku takes the git space so when you push, it goes to heroku)
+so if i had my github already set up i could do
+"git push origin master"
+and for heroku do
+"git push heroku master"
+master means name of branch. Heroku also allows you communicate with github to see code difference but we are not doing that. we just want to push our codes separately and deploy when we are satisfied
+
 45.I had an issue deploying to heroku because it was asking for tkinter sth. so what i noticed was that in my models app
 it was importing one turtle module which i didnt put my self so i removed it. 
 we add the website to the allowed host list in the settings file.
