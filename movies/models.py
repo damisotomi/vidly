@@ -1,7 +1,6 @@
 from argparse import _MutuallyExclusiveGroup
 from django.utils import timezone
 from platform import release
-from turtle import title
 from django.db import models
 
 # Create your models here.
