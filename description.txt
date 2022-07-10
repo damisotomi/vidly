@@ -65,7 +65,7 @@ to set up the github, i could first create a repo on github and call it vidly th
 and added the remote repo from github, named it vidly then pushed to it by doing
 "git push vidly master"
 i replaced the branch to main so it can push to main branch by doing 
-git push vidly main
+"git push vidly main"
 push to it by doing
 "git push origin master"
 master means name of branch. Heroku also allows you communicate with github to see code difference but we are not doing that. we just want to push our codes separately and deploy when we are satisfied
